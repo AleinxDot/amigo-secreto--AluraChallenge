@@ -8,7 +8,10 @@ Podras Acceder al proyecto de dos formas:
 
 Para acceder mediante Github Pages, deberas seguir el siguiente enlace:
 
-
+https://aleinxdot.github.io/amigo-secreto--AluraChallenge/
 
 2. Enlace de Vercel
+
 Para acceder mediante Github Pages, deberas seguir el siguiente enlace:
+
+https://amigo-secreto-alura-challenge.vercel.app/
