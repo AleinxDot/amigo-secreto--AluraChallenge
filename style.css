@@ -1,9 +1,9 @@
 :root {
-    --color-primary: #4B69FD;
+    --color-primary: #FAB12F;
     --color-secondary: #FFF9EB;
     --color-tertiary: #C4C4C4;
-    --color-button: #fe652b;
-    --color-button-hover: #e55720;
+    --color-button: #FA812F;
+    --color-button-hover: #FAB12F;
     --color-text: #444444;
     --color-white: #FFFFFF;
 }
@@ -43,7 +43,7 @@ body {
 .input-section {
     flex: 60%;
     background-color: var(--color-secondary);
-    border: 1px solid #000;
+    border: 1px solid #6f6f6f;
     border-radius: 64px 64px 0 0;
     display: flex;
     flex-direction: column;
@@ -82,7 +82,7 @@ body {
 .input-name {
     width: 100%;
     padding: 10px;
-    border: 2px solid #000;
+    border: 2px solid #3b3b3b;
     border-radius: 25px 0 0 25px;
     font-size: 16px;
 }
@@ -97,11 +97,11 @@ body {
     flex: 1;
     padding: 10px 15px;
     font-size: 16px;
-    border: 2px solid #333;
+    border: 2px solid #6f6f6f;
     border-right: none;
     border-radius: 25px 0 0 25px;
     font-family: "Merriweather", serif;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 4px 8px rgba(120, 120, 120, 0.3);
 }
 
 /* Estilos de botón */
@@ -109,7 +109,7 @@ button {
     padding: 15px 30px;
     font-family: "Inter", sans-serif;
     font-size: 16px;
-    border: 2px solid #000;
+    border: 2px solid #828282;
     border-radius: 25px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
     cursor: pointer;
@@ -122,7 +122,8 @@ button {
 }
 
 .button-add:hover {
-    background-color: #a1a1a1;
+    background-color: #FAB12F;
+    color: #f6f6f6;
 }
 
 /* Listas */
@@ -136,7 +137,7 @@ ul {
 
 .result-list {
     margin-top: 15px;
-    color: #05DF05;
+    color: #FA4032;
     font-size: 22px;
     font-weight: bold;
     text-align: center;
@@ -159,4 +160,7 @@ ul {
 
 .button-draw:hover {
     background-color: var(--color-button-hover);
+}
+button:hover {
+    border-color: var(--color-secondary);
 }

@@ -33,7 +33,7 @@ function mostrarAmigos(){
 function sortearAmigo(){
 
     let numeroDeAmigos = listaDeAmigos.length;
-    if (numeroDeAmigos >= 0) {
+    if (numeroDeAmigos <= 0) {
         alert("No hay amigos en la lista");
         return;
     }
@@ -44,7 +44,7 @@ function sortearAmigo(){
     else{
         let indiceSorteado = Math.floor(Math.random() * numeroDeAmigos);
         let amigoSorteado = listaDeAmigos[indiceSorteado];
-        document.getElementById('resultado').innerHTML = '<li>'+amigoSorteado+'</li>';
+        document.getElementById('resultado').innerHTML = '<li> Tu amigo secreto es '+amigoSorteado+'</li>';
     }
 
 }
